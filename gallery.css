@@ -1,10 +1,12 @@
 @media all and (max-width: 480px) {
 
   .gallery-image {
-    background-image: url("images/IMG_1.jpg");
     width: 100px;
     margin: 0;
     border: none;
+  }
+  img {
+    width: 100px;
   }
 }
 
@@ -21,7 +23,6 @@
 }
 
 .gallery-image {
-  background-image: url("images/IMG_1.jpg");
   float: left;
   height: 300px;
   width: 300px;
@@ -30,6 +31,9 @@
   border: 5px solid pink;
 }
 
+img {
+  width: 300px;
+}
 .main {
   width: 900px;
   margin: 0 auto;

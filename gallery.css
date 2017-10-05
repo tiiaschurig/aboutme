@@ -1,0 +1,36 @@
+@media all and (max-width: 480px) {
+
+  .gallery-image {
+    background-image: url("images/IMG_1.jpg");
+    width: 100px;
+    margin: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.gallery-image {
+  background-image: url("images/IMG_1.jpg");
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  background-size: cover;
+  border: 5px solid pink;
+}
+
+.main {
+  width: 900px;
+  margin: 0 auto;
+}

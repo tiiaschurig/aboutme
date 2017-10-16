@@ -2,6 +2,36 @@ body {
   background-image: url(images/IMG_1177.JPG);
 }
 
+nav {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+h1 {
+  color: pink;
+  font-size: 35px;
+  text-align: center;
+}
+
+li {
+  float: left;
+  margin-right: 85px;
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
 .gallery-image {
   float: left;
   width: 300px;
@@ -19,37 +49,15 @@ body {
   clear: both;
 }
 
-nav {
-  background-color: white;
-  width: 100%;
-  padding: 20px;
-}
-
-a {
-    color: pink;
-    text-decoration: none;
-}
-
-li {
-  float: left;
-  margin-right: 85px;
-
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  object-fit: cover;
-}
-
 .main-content {
+  background-color: white;
   padding-left: 37px;
   padding-right: 37px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 

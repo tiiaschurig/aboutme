@@ -25,10 +25,15 @@ nav {
   padding: 20px;
 }
 
+a {
+    color: pink;
+    text-decoration: none;
+}
+
 li {
   float: left;
   margin-right: 85px;
-  color: pink;
+
 }
 
 img {
@@ -45,7 +50,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 

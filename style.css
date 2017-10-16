@@ -28,7 +28,11 @@ nav {
 li {
   float: left;
   margin-right: 85px;
-  color: pink;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
 }
 
 .clearfix {
@@ -55,4 +59,13 @@ span {
 .divider {
   margin-top: 10px;
   border-top: 2px solid #F582C7;
+}
+
+.button {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: hotpink;
+  color: white;
+  display: inline-block;
+  margin: 50px 300px;
 }
